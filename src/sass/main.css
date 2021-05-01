@@ -770,7 +770,15 @@ a {
   }
 }
 
-@media (min-width: 1316px) {
+@media screen and (min-width: 1317px) and (max-width: 1500px) {
+  .hero-img {
+    max-width: 50%;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1501px) {
   .hero-img {
     max-width: 732px;
     height: 100%;
@@ -965,7 +973,13 @@ a {
   }
 }
 
-@media (min-width: 1316px) {
+@media screen and (min-width: 1316px) and (max-width: 1500px) {
+  .hero-text-wrap {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1501px) {
   .hero-text-wrap {
     width: 50%;
   }
@@ -1715,6 +1729,75 @@ a {
   background-color: #fff;
 }
 
+.rev-arrow {
+  background-color: transparent;
+  border: none;
+}
+
+.svg-arrw {
+  width: 25px;
+  height: 15px;
+  fill: #FF6B09;
+}
+
+.control-next-button {
+  position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .control-next-button {
+    top: 200px;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .control-next-button {
+    top: 150px;
+    right: 0px;
+  }
+}
+
+.control-prev-button {
+  position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .control-prev-button {
+    top: 200px;
+    left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .control-prev-button {
+    top: 150px;
+    left: 0px;
+  }
+}
+
+.carousel-item-container {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1315px) {
+  .carousel-item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1316px) {
+  .carousel-item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .rewiew-title {
   color: #111518;
   font-weight: 800;
@@ -1767,7 +1850,7 @@ a {
 }
 
 .svg-vk {
-  fill: #436EAB;
+  fill: #436eab;
   margin: 0;
 }
 
