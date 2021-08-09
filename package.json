@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Yuliia-Gorgodze.github.io/Hellen-English",
+  "homepage": "https://Viktor-sun.github.io/Hellen-English",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
